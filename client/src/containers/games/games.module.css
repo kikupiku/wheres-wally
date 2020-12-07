@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.gamesContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 48%);
+  gap: 4%;
+  margin-top: 40px;
+  max-height: calc(100% - 300px);
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+
+.game:hover {
+  background-color: #3f5c88;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px #3f5c88;
+  color: white;
+  cursor: pointer;
+}
+
+.game img {
+  width: 50%;
+  height: auto;
+  padding-bottom: 5px;
+}
+
